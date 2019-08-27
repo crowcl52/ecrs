@@ -1,1 +1,88 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css"
+
+$font-ConBold: ConBold
+$font-ConLight: ConLight
+$font-RobotoLight: RobotoLight
+$font-RobotoMedium: RobotoMedium
+$font-RobotoBold: RobotoBold
+
+.full   
+    height: 100vh
+
+.min-full
+    min-height: 100vh
+
+.Con1
+    font-family: $font-ConBold
+
+.Con2
+    font-family: $font-ConLight
+
+.Robo1
+    font-family: $font-RobotoLight
+
+.Robo2
+    font-family: $font-RobotoMedium
+
+.Robo3
+    font-family: $font-RobotoBold
+
+.over
+  overflow: hidden
+
+.cursor
+  cursor: pointer
+
+.mini-nav
+  position: fixed
+  top: 50px
+  right: 0
+  z-index: 999
+  background: white
+  padding-left: 30px
+
+// scrollbar
+
+/* width */
+::-webkit-scrollbar 
+  width: 10px
+  border-radius: 20px
+
+
+/* Track */
+::-webkit-scrollbar-track 
+  background: #f1f1f1
+
+
+/* Handle */
+::-webkit-scrollbar-thumb 
+  background: #888 
+
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover 
+  background: #555
+
+
+// tipografias
+@font-face 
+  font-family: ConBold
+  src: url('./assets/fonts/OpenSans-CondBold.ttf')
+
+@font-face 
+  font-family: ConLight
+  src: url('./assets/fonts/OpenSans-CondLight.ttf')
+
+@font-face 
+  font-family: RobotoLight
+  src: url('./assets/fonts/Roboto-Light.ttf')
+
+@font-face 
+  font-family: RobotoMedium
+  src: url('./assets/fonts/Roboto-Medium.ttf')
+
+@font-face 
+  font-family: RobotoBold
+  src: url('./assets/fonts/Roboto-Bold.ttf')
